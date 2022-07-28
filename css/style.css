@@ -8,6 +8,46 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-button{
-    text-align: center;
+
+.btn-custom{
+    color: #21b573;
+}
+
+.second-heading{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* Style Header Part */
+
+.slider{
+    position: relative;
+}
+
+.slider-item::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #282828;
+    opacity: .7;
+}
+
+.slider-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+}
+
+.slider-text h1{
+    font-size: 60px;
+}
+
+.slider-text p{
+
 }
