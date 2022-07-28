@@ -116,10 +116,10 @@
     </header>
     <!-- End Header Part -->
 
-    <main>
+    <main class="container">
 
         <!-- Start Our Courses -->
-        <section class="container our-courses py-5">
+        <section class="our-courses py-5">
             <div class="row our-courses-heading py-5">
                 <div class="col-lg-6 text-center m-auto">
                     <h2>Discover Our Popular Courses</h2>
@@ -238,7 +238,7 @@
         <!-- End Our Courses Part -->
 
         <!-- Start Explore Part -->
-        <section class="container">
+        <section>
             <div class="row align-items-center bg-info justify-content-between">
                 <div class="col-lg-6 ms-0">
                     <img src="images/working.png" class="img-fluid" alt="">
@@ -275,7 +275,7 @@
         <!-- End Explore Part -->
 
         <!-- Start Register Now Part -->
-        <section class="container py-5">
+        <section class="py-5">
             <div class="row bg-primary mt-5 align-items-center">
                 <div class="col-lg-7 p-5">
                     <h2 class="text-light fs-1 fw-semibold">Ready To Join</h2>
@@ -323,7 +323,7 @@
         <!-- End Register Now Part -->
 
         <!-- Start Our Successful Students -->
-        <section class="container py-5">
+        <section class="py-5">
             <div class="successfull-student-heading py-5">
                 <h2>Meet Our Successfull Students</h2>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when
@@ -370,6 +370,72 @@
             </div>
         </section>
         <!-- End Our Successful Students -->
+
+        <!-- Start Frequently Asked Questions Part -->
+        <section class="py-5">
+            <div class="faq-heading text-center">
+                <h2>Frequently Asked Questions</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout.</p>
+            </div>
+            <!-- Frequently Asked Questions -->
+            <div class="accordion py-5" id="accordionExample">
+                <!-- Questions One -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button fs-5 fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What is difference between flexbox and grid?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Grid is made for two-dimensional layout while Flexbox is for one.</strong> This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.
+                    </div>
+                  </div>
+                </div>
+                <!-- Questions Two -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed fs-5 fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      What is difference the between bootstrap and tailwind?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.
+                    </div>
+                  </div>
+                </div>
+                <!-- Questions Three -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed fs-5 fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      What Is Css Box Model? 
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Every element that can be displayed on a web page is comprised of one or more rectangular boxes. CSS box model typically describes how these rectangular boxes are laid out on a web page. These boxes can have different properties and can interact with each other in different ways, but every box has a <strong>content area</strong> and optional surrounding <strong>padding, border, and margin areas</strong>.
+                    </div>
+                  </div>
+                </div>
+                <!-- Questions Four -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button collapsed fs-5 fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        What Are Semantic Tags in HTML?
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        A semantic element <strong>clearly describes its meaning to both the browser and the developer</strong>. Examples of non-semantic elements: &lt;div&gt; and
+                         &lt;span&gt; - Tells nothing about its content. Examples of semantic elements: &lt;form&gt; , &lt;table&gt; , and &lt;article&gt; - Clearly defines its content.
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+        <!-- End Frequently Asked Questions Part -->
     </main>
 
 
