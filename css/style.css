@@ -9,16 +9,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.btn-custom{
-    background-color: #21b573;
-    color: #fff;
+.btn-primary{
     font-size: 18px;
-}
-
-.btn-custom:hover{
-    background-color: #009150;
-    color: #fff;
-    outline: none;
+    font-weight: 600;
+    padding: 13px 35px;
 }
 
 .second-heading{
@@ -63,12 +57,36 @@ body{
 
 @media only screen and (max-width:576px) {
 
+    .slider-text{
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        right: 0;
+        bottom: 0;
+    }
+
+    .slider-text p{
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .header-paragraph{
+        overflow: hidden;
+        max-width: 150px;
+        margin: auto;
+    }
+
+    .slider-text h1{
+        font-size: 25px;
+    }
+
     .second-heading{
         font-size: 24px;
     }
 
     .course-item{
-        display: flex;
         flex-direction: column;
     }
 
@@ -85,11 +103,95 @@ body{
         margin-bottom: 30px;
     }
 
-    #trusted-companies{
-        display: none;
+    .student-info{
+        text-align: center;
     }
 
-    .btn-custom{
+    .btn-primary{
         padding: 8px 20px;
     }
+}
+
+
+@media only screen and (min-width:577px) and (max-width:767px) {
+    
+    .slider-text{
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        right: 0;
+        bottom: 0;
+    }
+
+    .slider-text h1{
+        font-size: 30px;
+    }
+
+    .slider-text p{
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .header-paragraph{
+        overflow: hidden;
+        max-width: 250px;
+        margin: auto;
+    }
+
+    .btn-primary{
+        padding: 8px 20px;
+    }
+
+    .second-heading{
+        font-size: 28px;
+    }
+
+    .register-heading{
+        text-align: center;
+    }
+
+    .register-button{
+        margin-bottom: 30px;
+    }
+
+}
+
+
+/* Responsive Tab Devices */
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+    .slider-text h1{
+        font-size: 40px;
+    }
+
+    .slider-text{
+        top: 40%;
+    }
+
+    .second-heading{
+        font-size: 32px;
+    }
+
+    .register-heading{
+        text-align: center;
+    }
+
+    .register-button{
+        margin-bottom: 30px;
+    } 
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    
+    .slider-text h1{
+        font-size: 50px;
+    }
+
+    .second-heading{
+        font-size: 40px;
+    }
+
 }
