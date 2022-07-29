@@ -10,9 +10,8 @@ body {
 }
 
 .btn-primary {
-    font-size: 18px;
+    padding: 13px 40px;
     font-weight: 600;
-    padding: 13px 35px;
 }
 
 .second-heading {
