@@ -5,28 +5,28 @@
 
 /* Common Css */
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
-.btn-primary{
+.btn-primary {
     font-size: 18px;
     font-weight: 600;
     padding: 13px 35px;
 }
 
-.second-heading{
+.second-heading {
     font-size: 45px;
     font-weight: 600;
 }
 
 /* Style Header Part */
 
-.slider{
+.slider {
     position: relative;
 }
 
-.slider-item::before{
+.slider-item::before {
     content: '';
     position: absolute;
     height: 100%;
@@ -37,16 +37,16 @@ body{
     opacity: .7;
 }
 
-.slider-text{
+.slider-text {
     position: absolute;
     left: 50%;
     top: 50%;
     right: 0;
     bottom: 0;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.slider-text h1{
+.slider-text h1 {
     font-size: 60px;
 }
 
@@ -57,7 +57,7 @@ body{
 
 @media only screen and (max-width:576px) {
 
-    .slider-text{
+    .slider-text {
         position: absolute;
         left: 50%;
         top: 40%;
@@ -65,57 +65,57 @@ body{
         bottom: 0;
     }
 
-    .slider-text p{
+    .slider-text p {
         font-size: 14px;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
     }
 
-    .header-paragraph{
+    .header-paragraph {
         overflow: hidden;
         max-width: 150px;
         margin: auto;
     }
 
-    .slider-text h1{
+    .slider-text h1 {
         font-size: 25px;
     }
 
-    .second-heading{
+    .second-heading {
         font-size: 24px;
     }
 
-    .course-item{
+    .course-item {
         flex-direction: column;
     }
 
-    .course-item img{
+    .course-item img {
         width: 100%;
         margin-bottom: 30px;
     }
-    
-    .register-heading{
+
+    .register-heading {
         text-align: center;
     }
 
-    .register-button{
+    .register-button {
         margin-bottom: 30px;
     }
 
-    .student-info{
+    .student-info {
         text-align: center;
     }
 
-    .btn-primary{
+    .btn-primary {
         padding: 8px 20px;
     }
 }
 
 
 @media only screen and (min-width:577px) and (max-width:767px) {
-    
-    .slider-text{
+
+    .slider-text {
         position: absolute;
         left: 50%;
         top: 40%;
@@ -123,36 +123,36 @@ body{
         bottom: 0;
     }
 
-    .slider-text h1{
+    .slider-text h1 {
         font-size: 30px;
     }
 
-    .slider-text p{
+    .slider-text p {
         font-size: 14px;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
     }
 
-    .header-paragraph{
+    .header-paragraph {
         overflow: hidden;
         max-width: 250px;
         margin: auto;
     }
 
-    .btn-primary{
+    .btn-primary {
         padding: 8px 20px;
     }
 
-    .second-heading{
+    .second-heading {
         font-size: 28px;
     }
 
-    .register-heading{
+    .register-heading {
         text-align: center;
     }
 
-    .register-button{
+    .register-button {
         margin-bottom: 30px;
     }
 
@@ -163,34 +163,34 @@ body{
 
 @media only screen and (min-width:768px) and (max-width:991px) {
 
-    .slider-text h1{
+    .slider-text h1 {
         font-size: 40px;
     }
 
-    .slider-text{
+    .slider-text {
         top: 40%;
     }
 
-    .second-heading{
+    .second-heading {
         font-size: 32px;
     }
 
-    .register-heading{
+    .register-heading {
         text-align: center;
     }
 
-    .register-button{
+    .register-button {
         margin-bottom: 30px;
-    } 
+    }
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px) {
-    
-    .slider-text h1{
+
+    .slider-text h1 {
         font-size: 50px;
     }
 
-    .second-heading{
+    .second-heading {
         font-size: 40px;
     }
 
