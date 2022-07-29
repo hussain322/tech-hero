@@ -10,7 +10,15 @@ body{
 }
 
 .btn-custom{
-    color: #21b573;
+    background-color: #21b573;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn-custom:hover{
+    background-color: #009150;
+    color: #fff;
+    outline: none;
 }
 
 .second-heading{
@@ -48,6 +56,40 @@ body{
     font-size: 60px;
 }
 
-.slider-text p{
 
+/* Media Query Css */
+
+/* Responsive Mobile Devices */
+
+@media only screen and (max-width:576px) {
+
+    .second-heading{
+        font-size: 24px;
+    }
+
+    .course-item{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course-item img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .register-heading{
+        text-align: center;
+    }
+
+    .register-button{
+        margin-bottom: 30px;
+    }
+
+    #trusted-companies{
+        display: none;
+    }
+
+    .btn-custom{
+        padding: 8px 20px;
+    }
 }
